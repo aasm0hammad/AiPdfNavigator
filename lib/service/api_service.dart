@@ -30,7 +30,7 @@ class ApiService {
   static Future<String> getData(String question) async {
 
     String url =
-        "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=AIzaSyDcizilWihYJNgZDFxJU4JBzdJw-ypHznk";
+        "API";
 
     Uri uri = Uri.parse(url);
 
